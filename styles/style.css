@@ -4,24 +4,28 @@
 }
 
 body{
+    background: url('../images/background.jpg');
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
+#header{
+    background-color: #cd9085;
+    padding: 1.2rem;
+    border-radius: 12px;
+}
 
 .main{
-    background-color: rgb(230, 230, 230);
+    background-color: #fff9f6;
     width: 90%;
     margin: 1rem auto;
+    border-radius: 12px;
 }
 
-#header{
-    background-color: #6478a5;
-    padding: 1.2rem;
-}
 #title{
     text-align: center;
     margin-bottom: 0.5rem;
+    text-decoration: 4px solid underline;
 }
 #description{
     text-align: center;
@@ -42,13 +46,14 @@ body{
     border: none;
     background: none;
     outline: 0;
-    border-bottom: 2px solid #001f3f;
+    border-bottom: 2px solid #a56c63;
+    font-size: 1rem;
 }
 
 #survey-form .border{
     margin: 0.8rem 0;
     padding: 0.3rem;
-    border-left: 4px solid #6478a5;
+    border-left: 4px solid rgb(177, 99, 177);
 }
 
 #survey-form div{
@@ -62,14 +67,28 @@ body{
 
 button{
     width: 100%;
-    padding: 0.4rem;
+    padding: 0.6rem;
     margin: 1em 0;
+    background: #cd9085;
+    border: 0;
+}
+
+button:hover{
+    cursor: pointer;
+    background: #dfa196;
 }
 
 @media screen and (max-width: 768px){
     .main{
         width: 100%;
         margin: 0;
+        font-size: 18px;
+    }
+    #header{
+        border-radius: 0px;
+    }
+    .main{
+        border-radius: 0px;
     }
     
 }

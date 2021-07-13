@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
-    <title>Document</title>
+    <title>Skin Care</title>
 </head>
 
 <body>
     <div class="main">
         <div id="header">
-            <h1 id="title">Formulario</h1>
-            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, cum!</p>
+            <h1 id="title">Skin Care</h1>
+            <p id="description">Formulario desarrollado para conocer caracteristicas de tu piel. En este caso enfocandose en tu cara. Proceso necesario antes de realizar una limpieza facial profunda</p>
         </div>
         <div id="form-div">
             <form id="survey-form" action="">
@@ -44,23 +44,41 @@
                 </div>
 
                 <div class="border">
-                    <label for="sel">Selecciona tu Ocupacion:</label>
+                    <label for="sel">Selecciona tu tipo de piel:</label>
                     <select name="sel" id="dropdown">
-                        <option value="0">Selecciona una opcion</option>
-                        <option value="0"></option>
-
+                        <option value="0">Normal</option>
+                        <option value="0">Seca</option>
+                        <option value="0">Mixta</option>
+                        <option value="0">Grasosa</option>
+                        <option value="0">Sensible</option>
                     </select>
                 </div>
 
                 <div class="border">
-                    <label>Selecciona:</label><br>
-                    <label for="seleccion"><input type="checkbox" name="seleccion" id="cb" value="0"> Hola</label> <br>
-                    <label for="seleccion"><input type="checkbox" name="seleccion" id="cb2" value="0"> Hola</label><br>
-                    <label for="seleccion"><input type="checkbox" name="seleccion" id="cb2" value="0"> Hola</label>
+                    <label>¿Cuales de estas alteraciones pigmentarias posees?</label><br>
+                    <label for="cb"><input type="checkbox" name="pigm" id="cb" value="0"> Efelides</label> <br>
+                    <label for="cb1"><input type="checkbox" name="pigm" id="cb1" value="0"> Nevos</label><br>
+                    <label for="cb2"><input type="checkbox" name="pigm" id="cb2" value="0"> Melasmas</label><br>
+                    <label for="cb3"><input type="checkbox" name="pigm" id="cb3" value="0"> Lentigos</label><br>
+                    <label for="cb4"><input type="checkbox" name="pgm" id="cb4" value="0"> Vitiligo</label>
                 </div>
 
+                <div class="border">
+                    <label>¿Cuales de estas alteraciones vasculares posees?</label><br>
+                    <label for="cb5"><input type="checkbox" name="vas" id="cb5" value="0"> Eritrosis</label> <br>
+                    <label for="cb6"><input type="checkbox" name="vas" id="cb6" value="0"> Cuperosis</label><br>
+                    <label for="cb7"><input type="checkbox" name="vas" id="cb7" value="0"> Telanciectasias</label>
+                </div>
+
+                <div class="border">
+                    <label>¿Cuales de estas otras alteraciones posees?</label><br>
+                    <label for="cb8"><input type="checkbox" name="otr" id="cb8" value="0"> Psoriasis</label> <br>
+                    <label for="cb9"><input type="checkbox" name="otr" id="cb9" value="0"> Millium</label><br>
+                    <label for="cb10"><input type="checkbox" name="otr" id="cb10" value="0"> Edemas</label><br>
+                    <label for="cb11"><input type="checkbox" name="otr" id="cb11" value="0"> Cicatrices</label>
+
                 <div>
-                    <label for="area">Añade aqui informacion relevante:</label>
+                    <label for="area">Añade aqu información relevante sobre tu rostro:</label>
                     <textarea name="area" id="message" cols="30" rows="10"></textarea>
                 </div>
                 <div>
