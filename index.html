@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div id="header">
+            <h1 id="title">Formulario</h1>
+            <p id="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, cum!</p>
+        </div>
+        <div id="form-div">
+            <form id="survey-form" action="">
+                <div class="border">
+                    <label for="name" id="name-label">Nombre:</label>
+                    <input required class="in" type="text" name="name" id="name" placeholder="Introduce tu Nombre completo">
+                </div>
+                <div class="border">
+                    <label for="email" id="email-label">Correo Electronico:</label>
+                    <input required class="in" type="email" name="email" id="email" placeholder="Introduce tu correo electronico">
+                </div>
+                <div class="border">
+                    <label for="age" id="number-label">Edad:</label>
+                    <input required class="in" type="number" name="age" id="number" min="0" max="100" placeholder="Introduce tu edad">
+                </div>
+
+                <div class="border">
+                    <p>Sexo:</p>
+                    
+                    <input type="radio" name="sexo" id="" value="0">
+                    <label for="sexo">Hombre</label>
+                    <input type="radio" name="sexo" id="" value="0">
+                    <label for="sexo">Mujer</label>
+                    <input type="radio" name="sexo" id="" value="0">
+                    <label for="sexo">Otro</label>
+                    <input checked type="radio" name="sexo" id="" value="0">
+                    <label for="sexo">Prefiero no decir</label>
+                </div>
+
+                <div class="border">
+                    <label for="sel">Selecciona tu Ocupacion:</label>
+                    <select name="sel" id="dropdown">
+                        <option value="0">Selecciona una opcion</option>
+                        <option value="0"></option>
+
+                    </select>
+                </div>
+
+                <div class="border">
+                    <label>Selecciona:</label><br>
+                    <label for="seleccion"><input type="checkbox" name="seleccion" id="cb" value="0"> Hola</label> <br>
+                    <label for="seleccion"><input type="checkbox" name="seleccion" id="cb2" value="0"> Hola</label><br>
+                    <label for="seleccion"><input type="checkbox" name="seleccion" id="cb2" value="0"> Hola</label>
+                </div>
+
+                <div>
+                    <label for="area">Añade aqui informacion relevante:</label>
+                    <textarea name="area" id="message" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <button type="submit" id="submit">Enviar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

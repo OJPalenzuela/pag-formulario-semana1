@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+.main{
+    background-color: rgb(230, 230, 230);
+    width: 90%;
+    margin: 1rem auto;
+}
+
+#header{
+    background-color: #6478a5;
+    padding: 1.2rem;
+}
+#title{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+#description{
+    text-align: center;
+}
+
+
+#survey-form{
+    padding: 1.2rem;
+}
+#survey-form label{
+    width: 100%;
+}
+#survey-form .in,
+#survey-form select{
+    font-size: 0.8rem;
+    width: 100%;
+    margin: 0.4rem auto;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 2px solid #001f3f;
+}
+
+#survey-form .border{
+    margin: 0.8rem 0;
+    padding: 0.3rem;
+    border-left: 4px solid #6478a5;
+}
+
+#survey-form div{
+    margin: 0.8rem 0;
+}
+
+
+#message{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+    padding: 0.4rem;
+    margin: 1em 0;
+}
+
+@media screen and (max-width: 768px){
+    .main{
+        width: 100%;
+        margin: 0;
+    }
+    
+}
